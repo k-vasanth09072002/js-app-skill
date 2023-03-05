@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>date of birth</title>
+</head>
+<body>
+    
+    
+    <script>
+        let dob=prompt("enter number ","Month DD,YYYY");
+        let days=new Date(dob).getDay();
+
+        switch(days){
+            case 1:document.write("you birth day sunday");break;
+            case 2:document.write("you birth day MONDAY");break;
+            case 3:document.write("you birth day TUESDAY");break;
+            case 4:document.write("you birth day WEDNESDAY");break;
+            case 5:document.write("you birth day THURSDAY");break;
+            case 6:document.write("you birth day FRIDAY");break;
+            case 7:document.write("you birth day SATURDAY");break;
+        }
+    </script>
+    
+</body>
+</html>
